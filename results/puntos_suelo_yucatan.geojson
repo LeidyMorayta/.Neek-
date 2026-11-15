@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.491004,
+          20.04578
+        ]
+      },
+      "properties": {
+        "id": "YUC-01",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.912944,
+          20.04578
+        ]
+      },
+      "properties": {
+        "id": "YUC-02",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.069064,
+          20.53913
+        ]
+      },
+      "properties": {
+        "id": "YUC-03",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.491004,
+          20.53913
+        ]
+      },
+      "properties": {
+        "id": "YUC-04",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.912944,
+          20.53913
+        ]
+      },
+      "properties": {
+        "id": "YUC-05",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.334884,
+          20.53913
+        ]
+      },
+      "properties": {
+        "id": "YUC-06",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.491004,
+          21.03248
+        ]
+      },
+      "properties": {
+        "id": "YUC-07",
+        "ph": 7.3,
+        "texture": "franco-arenosa",
+        "depth_cm": null,
+        "source": "SoilGrids 2.0 estimado"
+      }
+    }
+  ]
+}

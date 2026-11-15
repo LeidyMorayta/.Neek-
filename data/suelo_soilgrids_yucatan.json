@@ -1,0 +1,151 @@
+{
+  "source": "ISRIC SoilGrids 2.0 via WCS",
+  "provider_url": "https://isric.org/explore/soilgrids",
+  "license": "CC-BY-4.0 (citar a ISRIC SoilGrids)",
+  "region_geojson": "geojson/yucatan_estado.geojson",
+  "metodo": "7 puntos interiores del GeoJSON, capas estimadas 0-5 cm con entorno local; no hay polígonos de zonas.",
+  "resolucion_fuente_m": "aproximadamente 250",
+  "fecha": "Capa SoilGrids estática, no corresponde específicamente a 2023-2025.",
+  "advertencias": [
+    "pH y textura son predicciones del modelo SoilGrids, NO análisis de laboratorio.",
+    "SoilGrids no proporciona aquí profundidad efectiva hasta roca, por eso depth_cm=null.",
+    "ISRIC desaconseja usar SoilGrids como medición de precisión a escala de parcela.",
+    "La evaluación climática conserva promedios NASA POWER de siete muestras: no es clima puntual de cada punto."
+  ],
+  "muestras": [
+    {
+      "id": "YUC-01",
+      "latitud": 20.04578,
+      "longitud": -89.491004,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.4,
+      "texture": "arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 29.15,
+      "silt_pct": 22.7,
+      "clay_pct": 48.1,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    },
+    {
+      "id": "YUC-02",
+      "latitud": 20.04578,
+      "longitud": -88.912944,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.1,
+      "texture": "arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 30.85,
+      "silt_pct": 20.2,
+      "clay_pct": 49.0,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    },
+    {
+      "id": "YUC-03",
+      "latitud": 20.53913,
+      "longitud": -90.069064,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.6,
+      "texture": "franco-arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 33.0,
+      "silt_pct": 32.05,
+      "clay_pct": 35.25,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    },
+    {
+      "id": "YUC-04",
+      "latitud": 20.53913,
+      "longitud": -89.491004,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.4,
+      "texture": "franco-arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 35.1,
+      "silt_pct": 25.45,
+      "clay_pct": 39.35,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    },
+    {
+      "id": "YUC-05",
+      "latitud": 20.53913,
+      "longitud": -88.912944,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.3,
+      "texture": "arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 25.6,
+      "silt_pct": 29.95,
+      "clay_pct": 43.75,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    },
+    {
+      "id": "YUC-06",
+      "latitud": 20.53913,
+      "longitud": -88.334884,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.5,
+      "texture": "franco-arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 38.4,
+      "silt_pct": 21.8,
+      "clay_pct": 39.9,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    },
+    {
+      "id": "YUC-07",
+      "latitud": 21.03248,
+      "longitud": -89.491004,
+      "source": "ISRIC SoilGrids 2.0 WCS (estimación, NO medición local)",
+      "ph": 7.6,
+      "texture": "franco-arcillosa",
+      "texture_method": "aproximación con arena/limo/arcilla 0-5 cm, NO clase USDA exacta",
+      "sand_pct": 32.5,
+      "silt_pct": 34.3,
+      "clay_pct": 33.1,
+      "depth_cm": null,
+      "depth_status": "No estimable a partir de las capas SoilGrids utilizadas; requiere verificación de profundidad efectiva en terreno.",
+      "raster_interval_cm": [
+        0,
+        5
+      ],
+      "spatial_method": "mediana local de píxeles de una pequeña ventana del WCS; sin polígono de influencia"
+    }
+  ],
+  "fallos": []
+}

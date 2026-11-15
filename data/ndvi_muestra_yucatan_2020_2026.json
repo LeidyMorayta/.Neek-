@@ -1,0 +1,79 @@
+{
+  "fuente": "Microsoft Planetary Computer / Sentinel-2 L2A",
+  "intervalo": "2020-2026",
+  "anios_consultados": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "mes_inicio": 6,
+  "meses_ventana": 3,
+  "region_geojson": "geojson/yucatan_estado.geojson",
+  "alcance": "Una ventana interior pequeña: NO representa Yucatán entero.",
+  "escenas": [
+    {
+      "fecha": "2020-07-13",
+      "escena": "S2B_MSIL2A_20200713T161829_R040_T16QBH_20200913T021927",
+      "nubes_escena_pct": 4.859675,
+      "ndvi_medio": 0.8125,
+      "pixeles_validos": 66474,
+      "calidad": "observacion_usable"
+    },
+    {
+      "fecha": "2021-07-03",
+      "escena": "S2A_MSIL2A_20210703T161901_R040_T16QBH_20210706T030955",
+      "nubes_escena_pct": 11.840919,
+      "ndvi_medio": 0.7742,
+      "pixeles_validos": 65004,
+      "calidad": "observacion_usable"
+    },
+    {
+      "fecha": "2022-08-17",
+      "escena": "S2A_MSIL2A_20220817T161841_R040_T16QBH_20220818T043502",
+      "nubes_escena_pct": 5.724009,
+      "ndvi_medio": 0.553,
+      "pixeles_validos": 66474,
+      "calidad": "observacion_usable"
+    },
+    {
+      "fecha": "2023-06-18",
+      "escena": "S2B_MSIL2A_20230618T161829_R040_T16QBH_20230618T215541",
+      "nubes_escena_pct": 8.051781,
+      "ndvi_medio": 0.3621,
+      "pixeles_validos": 66474,
+      "calidad": "observacion_usable"
+    },
+    {
+      "fecha": "2024-08-21",
+      "escena": "S2B_MSIL2A_20240821T161829_R040_T16QBH_20240821T202842",
+      "nubes_escena_pct": 9.483263,
+      "ndvi_medio": 0.5152,
+      "pixeles_validos": 64613,
+      "calidad": "observacion_usable"
+    },
+    {
+      "fecha": "2025-08-11",
+      "escena": "S2C_MSIL2A_20250811T161851_R040_T16QBH_20250811T212017",
+      "nubes_escena_pct": 13.636185,
+      "ndvi_medio": 0.5599,
+      "pixeles_validos": 16864,
+      "calidad": "observacion_usable"
+    },
+    {
+      "fecha": "2026-08-01",
+      "escena": "S2B_MSIL2A_20260801T161829_R040_T16QBH_20260801T200750",
+      "nubes_escena_pct": 1.563857,
+      "ndvi_medio": 0.5477,
+      "pixeles_validos": 66474,
+      "calidad": "observacion_usable"
+    }
+  ],
+  "errores_lectura": [],
+  "ndvi_mediana_de_escenas_validas": 0.553,
+  "estado": "evidencia_disponible",
+  "advertencia": "NDVI no interviene en el semáforo ni garantiza aptitud agrícola."
+}

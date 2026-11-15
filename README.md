@@ -52,19 +52,19 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-## Download the data
+## Data
 
-The climate and soil data files are not stored in the repository (they are in `.gitignore`), so download them once before the first run. Each command needs an internet connection and may take a while on the first run. Already downloaded data is not overwritten.
+A snapshot of the climate and soil data is **already included** in the repository (`data/` and `results/`), so you can run the app right after installing. No download step is needed.
+
+If you want fresher data, you can refresh it at any time (internet required). Existing data is not deleted:
 
 ```bash
-# Daily NASA POWER climate history, 2020 to present
+# Extend the daily NASA POWER climate history up to the latest available date
 python main.py descargar
 
-# Soil pH and texture samples from ISRIC SoilGrids (only needed for the 7-point /analizar endpoint)
+# Refresh the ISRIC SoilGrids soil samples (7 points, used by the /analizar endpoint)
 python main.py descargar-suelo
 ```
-
-The web app itself starts without these files, but analyzing a field requires the NASA POWER file and will show a clear error if it is missing.
 
 ## Run the app
 

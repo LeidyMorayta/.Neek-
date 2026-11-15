@@ -1,0 +1,67 @@
+{
+  "geojson": "geojson/yucatan_estado.geojson",
+  "periodo_objetivo": "2020-2025 completos + ciclos terminados de 2026",
+  "fuentes": {
+    "nasa_power": {
+      "estado": "actualizado",
+      "archivo": "data/power_yucatan_2020_2026.csv",
+      "rangos_nuevos": [
+        {
+          "inicio": "2020-01-01",
+          "fin": "2025-12-31",
+          "dias_descargados": 2192,
+          "muestras": 7
+        },
+        {
+          "inicio": "2026-01-01",
+          "fin": "2026-11-05",
+          "dias_descargados": 309,
+          "muestras": 7
+        }
+      ],
+      "errores": [],
+      "cobertura": {
+        "primera_fecha": "2020-01-01",
+        "ultima_fecha": "2026-11-05",
+        "dias": 2501,
+        "anios_presentes": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ]
+      },
+      "corte_consulta_2026": "2026-11-05"
+    },
+    "meteomatics": {
+      "estado": "sin_credenciales",
+      "archivo": null,
+      "instruccion": "Configura METEOMATICS_USERNAME y METEOMATICS_PASSWORD en fish."
+    },
+    "planetary_computer": {
+      "estado": "actualizado",
+      "archivo": "data/ndvi_muestra_yucatan_2020_2026.json",
+      "anios_consultados": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "rangos_nuevos": [
+        [
+          2020,
+          2026
+        ]
+      ],
+      "errores": [],
+      "escenas": 7
+    }
+  },
+  "advertencia": "Se conservan las descargas 2023-2025; los fallos aparecen por fuente y NO se rellenan con datos inventados."
+}
