@@ -1,9 +1,0 @@
-FIELDShift V10 — paquete preparado para Oracle Cloud (noviembre 2026)
-
-1) Abre README_DESPLIEGUE_ORACLE.md (pasos Windows + Oracle + Porkbun).
-2) Ejecuta conda activate fieldshift y python -m pytest -q.
-3) Aporta DATOS REALES: clima NASA POWER + suelo SoilGrids no vienen incluidos.
-4) Prueba http://127.0.0.1:8000/ready y POST /analizar localmente.
-5) Sube este ZIP a Oracle Ubuntu ARM64 y sigue la guía.
-
-IMPORTANTE: No está desplegado ni incluye credenciales. Nunca expongas el puerto 8000.
