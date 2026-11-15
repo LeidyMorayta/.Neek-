@@ -1,0 +1,17 @@
+{
+  "source": "EJEMPLO INVENTADO: reemplazar por historial confirmado por agricultor",
+  "previous_crops": [
+    "Maíz",
+    "Maíz"
+  ],
+  "current_rotation": [
+    "Maíz",
+    "Maíz",
+    "Calabaza"
+  ],
+  "priorities": {
+    "soil_health": 5,
+    "water_saving": 4,
+    "pest_break": 5
+  }
+}

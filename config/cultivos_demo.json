@@ -1,0 +1,725 @@
+[
+  {
+    "name": "Maíz",
+    "cycle_days": 120,
+    "temperature_c": [
+      18,
+      33
+    ],
+    "rainfall_mm": [
+      350,
+      700
+    ],
+    "soil_ph": [
+      5,
+      7
+    ],
+    "textures": [
+      "franca",
+      "franco-arcillosa",
+      "franco-arenosa"
+    ],
+    "min_depth_cm": 45,
+    "humidity_pct": [
+      45,
+      85
+    ],
+    "solar_mj_m2_day": [
+      14,
+      26
+    ],
+    "management": [
+      "Considerar fechas de establecimiento con lluvias constantes.",
+      "Mantener cobertura del suelo y reducir erosión.",
+      "Monitorear humedad durante floración y llenado de grano."
+    ],
+    "rotation": {
+      "family": "Poaceae",
+      "legume": false,
+      "water_demand": "media",
+      "ground_cover": "media",
+      "residue": "alta"
+    },
+    "temperature_absolute_c": [
+      10,
+      47
+    ],
+    "soil_ph_absolute": [
+      4.5,
+      8.5
+    ],
+    "ecocrop": {
+      "scientific_name": "Zea mays ssp. mays",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+      "temperature_optimal_c": [
+        18,
+        33
+      ],
+      "temperature_absolute_c": [
+        10,
+        47
+      ],
+      "ph_optimal": [
+        5,
+        7
+      ],
+      "ph_absolute": [
+        4.5,
+        8.5
+      ],
+      "rainfall_annual_optimal_mm": [
+        600,
+        1200
+      ],
+      "rainfall_annual_absolute_mm": [
+        400,
+        1800
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  },
+  {
+    "name": "Frijol",
+    "cycle_days": 90,
+    "temperature_c": [
+      16,
+      25
+    ],
+    "rainfall_mm": [
+      220,
+      450
+    ],
+    "soil_ph": [
+      5.5,
+      7.5
+    ],
+    "textures": [
+      "franca",
+      "franco-arenosa"
+    ],
+    "min_depth_cm": 35,
+    "humidity_pct": [
+      45,
+      80
+    ],
+    "solar_mj_m2_day": [
+      13,
+      25
+    ],
+    "management": [
+      "Evitar encharcamientos y exceso de lluvia en maduración.",
+      "Rotar con gramíneas para diversificar familias.",
+      "Usar semilla adaptada a la localidad."
+    ],
+    "rotation": {
+      "family": "Fabaceae",
+      "legume": true,
+      "water_demand": "media",
+      "ground_cover": "baja",
+      "residue": "baja"
+    },
+    "temperature_absolute_c": [
+      7,
+      32
+    ],
+    "soil_ph_absolute": [
+      4,
+      9
+    ],
+    "ecocrop": {
+      "scientific_name": "Phaseolus vulgaris",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1668",
+      "temperature_optimal_c": [
+        16,
+        25
+      ],
+      "temperature_absolute_c": [
+        7,
+        32
+      ],
+      "ph_optimal": [
+        5.5,
+        7.5
+      ],
+      "ph_absolute": [
+        4,
+        9
+      ],
+      "rainfall_annual_optimal_mm": [
+        500,
+        2000
+      ],
+      "rainfall_annual_absolute_mm": [
+        300,
+        4300
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  },
+  {
+    "name": "Calabaza",
+    "cycle_days": 110,
+    "temperature_c": [
+      20,
+      30
+    ],
+    "rainfall_mm": [
+      260,
+      580
+    ],
+    "soil_ph": [
+      5.5,
+      7.5
+    ],
+    "textures": [
+      "franca",
+      "franco-arenosa"
+    ],
+    "min_depth_cm": 40,
+    "humidity_pct": [
+      40,
+      80
+    ],
+    "solar_mj_m2_day": [
+      15,
+      27
+    ],
+    "management": [
+      "Preferir drenaje adecuado.",
+      "Controlar exposición a humedad excesiva para prevenir enfermedades.",
+      "Aplicar acolchado si es apropiado."
+    ],
+    "rotation": {
+      "family": "Cucurbitaceae",
+      "legume": false,
+      "water_demand": "media",
+      "ground_cover": "alta",
+      "residue": "media"
+    },
+    "temperature_absolute_c": [
+      10,
+      40
+    ],
+    "soil_ph_absolute": [
+      4.5,
+      8.3
+    ],
+    "ecocrop": {
+      "scientific_name": "Cucurbita moschata",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=820",
+      "temperature_optimal_c": [
+        20,
+        30
+      ],
+      "temperature_absolute_c": [
+        10,
+        40
+      ],
+      "ph_optimal": [
+        5.5,
+        7.5
+      ],
+      "ph_absolute": [
+        4.5,
+        8.3
+      ],
+      "rainfall_annual_optimal_mm": [
+        600,
+        1600
+      ],
+      "rainfall_annual_absolute_mm": [
+        300,
+        2800
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo. Perfil de Cucurbita moschata; validar especie/variedad local."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  },
+  {
+    "name": "Chile habanero",
+    "cycle_days": 135,
+    "temperature_c": [
+      20,
+      26
+    ],
+    "rainfall_mm": [
+      280,
+      550
+    ],
+    "soil_ph": [
+      6,
+      6.5
+    ],
+    "textures": [
+      "franca",
+      "franco-arenosa"
+    ],
+    "min_depth_cm": 40,
+    "humidity_pct": [
+      45,
+      78
+    ],
+    "solar_mj_m2_day": [
+      13,
+      25
+    ],
+    "management": [
+      "Considerar riego localizado si falta agua.",
+      "Evaluar malla sombra ante radiación y calor elevados.",
+      "Revisar drenaje y sanidad por exceso de humedad."
+    ],
+    "rotation": {
+      "family": "Solanaceae",
+      "legume": false,
+      "water_demand": "alta",
+      "ground_cover": "baja",
+      "residue": "baja"
+    },
+    "temperature_absolute_c": [
+      15,
+      32
+    ],
+    "soil_ph_absolute": [
+      5.3,
+      7
+    ],
+    "ecocrop": {
+      "scientific_name": "Capsicum chinense",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=4178",
+      "temperature_optimal_c": [
+        20,
+        26
+      ],
+      "temperature_absolute_c": [
+        15,
+        32
+      ],
+      "ph_optimal": [
+        6,
+        6.5
+      ],
+      "ph_absolute": [
+        5.3,
+        7
+      ],
+      "rainfall_annual_optimal_mm": [
+        600,
+        1250
+      ],
+      "rainfall_annual_absolute_mm": [
+        500,
+        1500
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ],
+    "ph_evidencia_yucatan": {
+      "tipo": "observacion_suelos_cultivados",
+      "ph_min_observado": 7.1,
+      "ph_max_observado": 7.7,
+      "fuente": "Suelos destinados a la producción de chile habanero en Yucatán: características físicas y químicas predominantes (Agrociencia, 2014)",
+      "url": "https://www.scielo.org.mx/scielo.php?pid=S1405-31952014000400001&script=sci_arttext",
+      "interpretacion": "El rango es de suelos estudiados CON cultivo, NO un rango óptimo ni un ensayo de tolerancia. pH por encima de FAO y hasta el mayor observado activa advertencia, no rojo automático; nunca verde por esta excepción."
+    }
+  },
+  {
+    "name": "Soya",
+    "cycle_days": 115,
+    "temperature_c": [
+      20,
+      33
+    ],
+    "rainfall_mm": [
+      320,
+      650
+    ],
+    "soil_ph": [
+      5.5,
+      6.5
+    ],
+    "textures": [
+      "franca",
+      "franco-arcillosa"
+    ],
+    "min_depth_cm": 45,
+    "humidity_pct": [
+      45,
+      80
+    ],
+    "solar_mj_m2_day": [
+      14,
+      26
+    ],
+    "management": [
+      "Revisar inoculación con rizobios según manejo local.",
+      "Evitar exceso de agua en suelo poco drenante.",
+      "Considerar rotación con gramíneas."
+    ],
+    "rotation": {
+      "family": "Fabaceae",
+      "legume": true,
+      "water_demand": "media",
+      "ground_cover": "media",
+      "residue": "media"
+    },
+    "temperature_absolute_c": [
+      10,
+      38
+    ],
+    "soil_ph_absolute": [
+      4.5,
+      8.4
+    ],
+    "ecocrop": {
+      "scientific_name": "Glycine max",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1150",
+      "temperature_optimal_c": [
+        20,
+        33
+      ],
+      "temperature_absolute_c": [
+        10,
+        38
+      ],
+      "ph_optimal": [
+        5.5,
+        6.5
+      ],
+      "ph_absolute": [
+        4.5,
+        8.4
+      ],
+      "rainfall_annual_optimal_mm": [
+        600,
+        1500
+      ],
+      "rainfall_annual_absolute_mm": [
+        450,
+        1800
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  },
+  {
+    "name": "Sandía",
+    "cycle_days": 95,
+    "temperature_c": [
+      20,
+      35
+    ],
+    "rainfall_mm": [
+      220,
+      430
+    ],
+    "soil_ph": [
+      6,
+      7
+    ],
+    "textures": [
+      "franco-arenosa",
+      "arenosa",
+      "franca"
+    ],
+    "min_depth_cm": 55,
+    "humidity_pct": [
+      40,
+      75
+    ],
+    "solar_mj_m2_day": [
+      16,
+      28
+    ],
+    "management": [
+      "Mantener drenaje y controlar encharcamientos.",
+      "Evaluar riego por goteo cuando falte precipitación.",
+      "Evitar repetir cucurbitáceas continuamente en la misma parcela."
+    ],
+    "rotation": {
+      "family": "Cucurbitaceae",
+      "legume": false,
+      "water_demand": "alta",
+      "ground_cover": "media",
+      "residue": "baja"
+    },
+    "temperature_absolute_c": [
+      15,
+      40
+    ],
+    "soil_ph_absolute": [
+      5.5,
+      7.5
+    ],
+    "ecocrop": {
+      "scientific_name": "Citrullus lanatus",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=708",
+      "temperature_optimal_c": [
+        20,
+        35
+      ],
+      "temperature_absolute_c": [
+        15,
+        40
+      ],
+      "ph_optimal": [
+        6,
+        7
+      ],
+      "ph_absolute": [
+        5.5,
+        7.5
+      ],
+      "rainfall_annual_optimal_mm": [
+        500,
+        700
+      ],
+      "rainfall_annual_absolute_mm": [
+        400,
+        1800
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  },
+  {
+    "name": "Pepino",
+    "cycle_days": 85,
+    "temperature_c": [
+      18,
+      32
+    ],
+    "rainfall_mm": [
+      240,
+      450
+    ],
+    "soil_ph": [
+      6,
+      7.5
+    ],
+    "textures": [
+      "franca",
+      "franco-arenosa"
+    ],
+    "min_depth_cm": 35,
+    "humidity_pct": [
+      50,
+      80
+    ],
+    "solar_mj_m2_day": [
+      13,
+      25
+    ],
+    "management": [
+      "Considerar tutorado y ventilación según manejo.",
+      "Vigilar hongos bajo humedad persistente.",
+      "Preferir riego controlado donde sea necesario."
+    ],
+    "rotation": {
+      "family": "Cucurbitaceae",
+      "legume": false,
+      "water_demand": "alta",
+      "ground_cover": "media",
+      "residue": "baja"
+    },
+    "temperature_absolute_c": [
+      6,
+      38
+    ],
+    "soil_ph_absolute": [
+      4.5,
+      8.7
+    ],
+    "ecocrop": {
+      "scientific_name": "Cucumis sativus",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=817",
+      "temperature_optimal_c": [
+        18,
+        32
+      ],
+      "temperature_absolute_c": [
+        6,
+        38
+      ],
+      "ph_optimal": [
+        6,
+        7.5
+      ],
+      "ph_absolute": [
+        4.5,
+        8.7
+      ],
+      "rainfall_annual_optimal_mm": [
+        1000,
+        1200
+      ],
+      "rainfall_annual_absolute_mm": [
+        400,
+        4300
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  },
+  {
+    "name": "Sorgo",
+    "cycle_days": 115,
+    "temperature_c": [
+      22,
+      35
+    ],
+    "rainfall_mm": [
+      180,
+      420
+    ],
+    "soil_ph": [
+      5.5,
+      7.5
+    ],
+    "textures": [
+      "franca",
+      "franco-arcillosa",
+      "franco-arenosa"
+    ],
+    "min_depth_cm": 40,
+    "humidity_pct": [
+      35,
+      75
+    ],
+    "solar_mj_m2_day": [
+      15,
+      28
+    ],
+    "management": [
+      "Evaluar como alternativa con menor demanda hídrica relativa.",
+      "Evitar sembrar repetidamente gramíneas sin manejo nutricional.",
+      "Seleccionar variedad según uso y mercado local."
+    ],
+    "rotation": {
+      "family": "Poaceae",
+      "legume": false,
+      "water_demand": "baja",
+      "ground_cover": "media",
+      "residue": "alta"
+    },
+    "temperature_absolute_c": [
+      8,
+      40
+    ],
+    "soil_ph_absolute": [
+      5,
+      8
+    ],
+    "ecocrop": {
+      "scientific_name": "Sorghum bicolor",
+      "source": "FAO ECOCROP - ficha de especie",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=48747",
+      "temperature_optimal_c": [
+        22,
+        35
+      ],
+      "temperature_absolute_c": [
+        8,
+        40
+      ],
+      "ph_optimal": [
+        5.5,
+        7.5
+      ],
+      "ph_absolute": [
+        5,
+        8
+      ],
+      "rainfall_annual_optimal_mm": [
+        400,
+        600
+      ],
+      "rainfall_annual_absolute_mm": [
+        300,
+        700
+      ],
+      "note": "La lluvia ECOCROP es ANUAL. No se compara directamente con lluvia del ciclo."
+    },
+    "provisional_fields": [
+      "rainfall_mm",
+      "textures",
+      "min_depth_cm",
+      "humidity_pct",
+      "solar_mj_m2_day",
+      "cycle_days",
+      "management",
+      "rotation"
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+data/cache_soilgrids/
+data/suelo_soilgrids_yucatan.json
+results/puntos_suelo_yucatan.geojson

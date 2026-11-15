@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+results/*.json
+data/*.csv
+data/*.json
+data/cache_soilgrids/
+data/suelo_soilgrids_yucatan.json
+results/puntos_suelo_yucatan.geojson
+data/profundidad_inegi_yucatan.json
+
+# Deployment and local secrets
+*.pem
+*.key
+fieldshift.env
+.env.*
+miniforge3/
+
+data/cache_climate/
